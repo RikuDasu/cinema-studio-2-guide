@@ -426,6 +426,7 @@
         <a href="#comparison">競合比較</a>
         <a href="#prompts">プロンプト術</a>
         <a href="#decision">用途別おすすめ</a>
+        <a href="#updates">最新情報</a>
     </div>
 </nav>
 
@@ -445,7 +446,7 @@
             <div class="card">
                 <div class="card-icon">📐</div>
                 <h4>決定論的カメラ制御</h4>
-                <p>ドリー、パン、クレーン、FPV、バレットタイム、クラッシュズームなど70以上のカメラプリセット。AIのランダム性に頼らない精密な制御。</p>
+                <p>ドリー、パン、クレーン、FPV、バレットタイム、クラッシュズームなど<strong>250以上</strong>のカメラプリセット。AIのランダム性に頼らない精密な制御。</p>
             </div>
             <div class="card">
                 <div class="card-icon">🔬</div>
@@ -464,6 +465,42 @@
     <section id="features">
         <h2><span class="section-num">02</span>主要機能</h2>
         <p class="section-desc">画像生成からリップシンクまで、映像制作に必要な全てを網羅。</p>
+
+        <h3>カメラボディ（6種類）</h3>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>カメラ</th><th>特徴</th></tr></thead>
+                <tbody>
+                    <tr><td>RED V-RAPTOR</td><td>非常にシャープで高精細</td></tr>
+                    <tr><td>Sony Venice</td><td>プロフェッショナルデジタルシネマ</td></tr>
+                    <tr><td>IMAX Film Camera</td><td>大画面向けの没入感</td></tr>
+                    <tr><td>ARRI Alexa 35</td><td>デジタルシネマの標準</td></tr>
+                    <tr><td>Arriflex 16SR</td><td>ダークトーン、フィルムグレイン感</td></tr>
+                    <tr><td>Panavision Millennium DXL2</td><td>デジタルフィルムルック</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>レンズ（11種類以上）</h3>
+        <div class="card-grid">
+            <div class="card">
+                <h4>球面レンズ (Spherical)</h4>
+                <ul>
+                    <li>Petzval — ビネット効果</li>
+                    <li>Canon K35 — 明るい出力、強いフレア</li>
+                    <li>Zeiss Ultra Prime — 精密描写</li>
+                    <li>Lensbaby — ソフトフォーカス</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>アナモルフィックレンズ (Anamorphic)</h4>
+                <ul>
+                    <li>JC XL Express — 自然なフレア</li>
+                    <li>Panavision C Series — 青いストリークフレア、ワイドシネマティック</li>
+                    <li>Cooke — 独特のボケ味（Cooke Look）</li>
+                </ul>
+            </div>
+        </div>
 
         <h3>画像ツール</h3>
         <div class="card-grid">
@@ -502,6 +539,10 @@
             <div class="card">
                 <h4>Video Edit / Recast</h4>
                 <p>既存動画の編集、スタイル変換、キャラクタースワップ。</p>
+            </div>
+            <div class="card">
+                <h4>Guided Transition</h4>
+                <p>開始フレームと終了フレームを指定し、AIが中間モーションを自動生成。注: 使用時はオーディオとプリセット選択が無効化。</p>
             </div>
         </div>
 
@@ -697,24 +738,30 @@
                     <tr>
                         <th>項目</th>
                         <th>Higgsfield Cinema Studio</th>
-                        <th>Runway Gen-3/4</th>
-                        <th>Kling AI</th>
-                        <th>Sora (OpenAI)</th>
-                        <th>Pika Labs</th>
+                        <th>Runway Gen-4.5</th>
+                        <th>Kling 2.6</th>
+                        <th>Sora 2</th>
+                        <th>Luma Ray3</th>
+                        <th>Pika 2.5</th>
+                        <th>Vidu Q3</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>カメラ制御</td>
-                        <td><span class="tag tag-green">70+プリセット</span></td>
-                        <td><span class="tag tag-orange">基本的</span></td>
-                        <td><span class="tag tag-orange">基本的</span></td>
-                        <td><span class="tag tag-orange">プロンプトベース</span></td>
-                        <td><span class="tag tag-orange">基本的</span></td>
+                        <td><span class="tag tag-green">250+プリセット</span></td>
+                        <td><span class="tag tag-orange">モーションブラシ</span></td>
+                        <td><span class="tag tag-orange">良好</span></td>
+                        <td><span class="tag tag-orange">限定的</span></td>
+                        <td><span class="tag tag-orange">中程度</span></td>
+                        <td><span class="tag tag-red">基本的</span></td>
+                        <td><span class="tag tag-orange">自動カット</span></td>
                     </tr>
                     <tr>
                         <td>レンズ物理</td>
                         <td><span class="tag tag-green">実レンズ再現</span></td>
+                        <td><span class="tag tag-red">なし</span></td>
+                        <td><span class="tag tag-red">なし</span></td>
                         <td><span class="tag tag-red">なし</span></td>
                         <td><span class="tag tag-red">なし</span></td>
                         <td><span class="tag tag-red">なし</span></td>
@@ -727,54 +774,68 @@
                         <td><span class="tag tag-red">自社のみ</span></td>
                         <td><span class="tag tag-red">自社のみ</span></td>
                         <td><span class="tag tag-red">自社のみ</span></td>
+                        <td><span class="tag tag-red">自社のみ</span></td>
+                        <td><span class="tag tag-red">自社のみ</span></td>
                     </tr>
                     <tr>
                         <td>モーション品質</td>
                         <td><span class="tag tag-orange">やや不安定</span></td>
                         <td><span class="tag tag-green">高い整合性</span></td>
-                        <td><span class="tag tag-green">自然なモーション</span></td>
-                        <td><span class="tag tag-green">高品質</span></td>
+                        <td><span class="tag tag-green">自然な動き</span></td>
+                        <td><span class="tag tag-green">物理最強</span></td>
+                        <td><span class="tag tag-green">写実的</span></td>
                         <td><span class="tag tag-orange">中程度</span></td>
+                        <td><span class="tag tag-green">アニメ最強</span></td>
                     </tr>
                     <tr>
                         <td>最大解像度</td>
                         <td>4K (Ultimate〜)</td>
                         <td>4K</td>
                         <td>1080p</td>
+                        <td>1080p+</td>
+                        <td><span class="tag tag-green">4K HDR</span></td>
                         <td>1080p</td>
                         <td>1080p</td>
                     </tr>
                     <tr>
                         <td>動画長</td>
                         <td>5〜20秒</td>
-                        <td>5〜16秒</td>
-                        <td>5〜10秒</td>
-                        <td>5〜20秒</td>
-                        <td>3〜10秒</td>
+                        <td>〜40秒</td>
+                        <td><span class="tag tag-green">2〜3分</span></td>
+                        <td>〜35秒</td>
+                        <td>〜20秒</td>
+                        <td>〜10秒</td>
+                        <td>〜16秒</td>
+                    </tr>
+                    <tr>
+                        <td>音声統合</td>
+                        <td><span class="tag tag-green">WAN 2.5</span></td>
+                        <td><span class="tag tag-red">なし</span></td>
+                        <td><span class="tag tag-green">あり</span></td>
+                        <td><span class="tag tag-green">あり</span></td>
+                        <td><span class="tag tag-red">なし</span></td>
+                        <td><span class="tag tag-red">なし</span></td>
+                        <td><span class="tag tag-green">自動</span></td>
                     </tr>
                     <tr>
                         <td>月額 (最安)</td>
                         <td>$0 (Free)</td>
                         <td>$12</td>
-                        <td>$5.99</td>
-                        <td>$20 (ChatGPT Plus)</td>
+                        <td>$6.99</td>
+                        <td>$20</td>
+                        <td>$7.99</td>
                         <td>$8</td>
-                    </tr>
-                    <tr>
-                        <td>初心者向け</td>
-                        <td><span class="tag tag-green">プリセット豊富</span></td>
-                        <td><span class="tag tag-orange">学習必要</span></td>
-                        <td><span class="tag tag-orange">プロンプト重要</span></td>
-                        <td><span class="tag tag-green">シンプル</span></td>
-                        <td><span class="tag tag-green">シンプル</span></td>
+                        <td>Free枠あり</td>
                     </tr>
                     <tr>
                         <td>独自の強み</td>
-                        <td>映画制作ワークフロー</td>
-                        <td>Act-Two / 高い一貫性</td>
-                        <td>リップシンク精度</td>
-                        <td>長尺・一貫性</td>
-                        <td>シーン編集</td>
+                        <td>映画制作WF</td>
+                        <td>クリエイティブエコ</td>
+                        <td>長尺+リップシンク</td>
+                        <td>物理リアリズム</td>
+                        <td>4K HDR写実性</td>
+                        <td>42秒高速生成</td>
+                        <td>AIアニメ最高峰</td>
                     </tr>
                 </tbody>
             </table>
@@ -829,6 +890,21 @@
                 <h4>カメラ動作は控えめに</h4>
                 <p>3つスタックできるが、静かで洗練された動きの方が安定。激しいモーションはアーティファクトの原因に。</p>
             </div>
+            <div class="card">
+                <h4>3層分離法</h4>
+                <p>プロンプトを3層に分離: (1) カメラ指示 (2) キャラクター/アイデンティティ (3) モーション。混在させるとフレーミング不安定・顔崩れの原因。</p>
+            </div>
+        </div>
+
+        <div class="tip-box">
+            <strong>プロンプト構造テンプレート</strong>
+            <p>[被写体の詳細: 服装、外見、雰囲気、特徴] → [環境・ライティング: シーンの設定] → [カメラワーク: 映画用語で指定]<br>
+            映画用語を活用: 「Dutch angle」「bird's eye view」「eye-level tracking shot」「low angle hero shot」等でAIが即座にフレーミングを理解。「cinematic scene」とだけ書かない。</p>
+        </div>
+
+        <div class="tip-box">
+            <strong>よくある間違い</strong>
+            <p>矛盾する指示（「fast-paced action」+「slow contemplative mood」）の同時指定。1プロンプトにアクションを詰め込みすぎ。短いプロンプトの方が効果的 — 長い記述的パラグラフより直接的コマンドに良く反応する。</p>
         </div>
 
         <h3>焦点距離ガイド</h3>
@@ -900,6 +976,21 @@
                 <span class="tool-rec">→ Higgsfield（マルチモデル）</span>
             </div>
             <div class="decision-card">
+                <h4>長尺コンテンツ (1分+)</h4>
+                <p>1分以上の連続した動画が必要な場合。解説動画、ストーリーテリング、教育コンテンツに。</p>
+                <span class="tool-rec">→ Kling 2.6（最大2-3分）</span>
+            </div>
+            <div class="decision-card">
+                <h4>4K HDR 高品質映像</h4>
+                <p>最高解像度の写実的映像が必要。広告、プロモーション、展示映像に。</p>
+                <span class="tool-rec">→ Luma Ray3</span>
+            </div>
+            <div class="decision-card">
+                <h4>アニメ・スタイライズド</h4>
+                <p>AIアニメーション、イラスト風動画、スタイリッシュな表現が必要な場合。</p>
+                <span class="tool-rec">→ Vidu Q3（2026年AIアニメ最高峰）</span>
+            </div>
+            <div class="decision-card">
                 <h4>API連携・大量生成</h4>
                 <p>アプリやワークフローに組み込みたい。従量課金でコスト管理したい場合。</p>
                 <span class="tool-rec">→ Segmind API (Higgsfield) / Runway API</span>
@@ -909,6 +1000,31 @@
         <div class="tip-box">
             <strong>最適解: ハイブリッド運用</strong>
             <p>Higgsfield Cinema Studioをメインに据え、カメラ制御とマルチモデルアクセスを活用。モーション品質が求められるシーンだけRunway/Klingを併用するのが2026年時点の最適戦略。</p>
+        </div>
+    </section>
+
+    <!-- 9. Updates -->
+    <section id="updates">
+        <h2><span class="section-num">09</span>最新アップデート (2025-2026)</h2>
+        <p class="section-desc">継続的に進化するプラットフォームの最新情報。</p>
+
+        <div class="card-grid">
+            <div class="card">
+                <h4>Higgsfield Assist (GPT-5搭載)</h4>
+                <p>AIコパイロット機能。プロンプト提案、パラメータ調整、ワークフロー最適化を自動でサポート。</p>
+            </div>
+            <div class="card">
+                <h4>WAN Camera Control</h4>
+                <p>既存の動画にもシネマティックなカメラモーションを後から適用可能。撮影済み素材の活用に。</p>
+            </div>
+            <div class="card">
+                <h4>Nano Banana Pro</h4>
+                <p>ハイコントロールのプロンプティングとテンプレート機能。より精密な画像生成。</p>
+            </div>
+            <div class="card">
+                <h4>マルチモデル拡大</h4>
+                <p>Sora 2、Google Veo 3/3.1、Kling 2.5/2.6/O1、Seedance Pro等を順次統合。業界最多のモデルラインナップ。</p>
+            </div>
         </div>
     </section>
 
